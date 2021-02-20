@@ -1,0 +1,12 @@
+$(document).ready(function(){
+    $('.ham-menu').click(function(){
+        $('.mobile-menu').fadeIn();
+        $('.ham-menu').fadeOut();
+        $('.x-menu').fadeIn();
+    });
+    $('.x-menu').click(function(){
+        $('.mobile-menu').fadeOut();
+        $('.x-menu').fadeOut();
+        $('.ham-menu').fadeIn();
+    });
+});
