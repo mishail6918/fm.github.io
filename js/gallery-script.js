@@ -23,6 +23,12 @@ $('.gallery-thumbs').slick({
         }
     ]
 });
+$('.similar-list').slick({
+    slidesToShow: 4,
+    slidesToScroll: 2,
+    arrows: false,
+    swipeToSlide: true
+})
 
 $('.room-slider').slick({
     slidesToShow:1,
