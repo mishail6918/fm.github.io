@@ -10,6 +10,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <!--<link rel="stylesheet" href="css/jquery.fancybox.min.css">-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/media.css">
     <title>Страница товара</title>
@@ -54,11 +58,16 @@
             <div class="card-item">
                 <div class="card-gallery">
                     <div class="gallery-main">
-                        <div class="slide-item"><img src="img/1.jpg" alt=""></div>
-                        <div class="slide-item"><img src="img/2.jpg" alt=""></div>
-                        <div class="slide-item"><img src="img/3.jpg" alt=""></div>
-                        <div class="slide-item"><img src="img/4.jpg" alt=""></div>
-                        <div class="slide-item"><img src="img/5.jpg" alt=""></div>
+                        <a href="img/whitesofa.png" data-fancybox="item-photo" class="slide-item"><img src="img/whitesofa.png" alt=""></a>
+                        <a href="img/whitesofa.png" data-fancybox="item-photo" class="slide-item"><img src="img/whitesofa.png" alt=""></a>
+                        <a href="img/whitesofa.png" data-fancybox="item-photo" class="slide-item"><img src="img/whitesofa.png" alt=""></a>
+                        <a href="img/whitesofa.png" data-fancybox="item-photo" class="slide-item"><img src="img/whitesofa.png" alt=""></a>
+                        <a href="img/whitesofa.png" data-fancybox="item-photo" class="slide-item"><img src="img/whitesofa.png" alt=""></a>
+                        <!--<div class="slide-item"><img src="img/whitesofa.png" alt=""></div>
+                        <div class="slide-item"><img src="img/whitesofa.png" alt=""></div>
+                        <div class="slide-item"><img src="img/whitesofa.png" alt=""></div>
+                        <div class="slide-item"><img src="img/whitesofa.png" alt=""></div>
+                        <div class="slide-item"><img src="img/whitesofa.png" alt=""></div>-->
                     </div>
                     <div class="gallery-thumbs">
                         <div class="slide-item"><img src="img/sofa1.png" alt=""></div>
@@ -107,10 +116,14 @@
         <div class="container">
             <div class="slider-container">
                 <div class="room-slider">
-                    <div class="slide-item"><img src="img/room.png" alt=""></div>
-                    <div class="slide-item"><img src="img/room.png" alt=""></div>
-                    <div class="slide-item"><img src="img/room.png" alt=""></div>
-                    <div class="slide-item"><img src="img/room.png" alt=""></div>
+                    <a href="img/room.png" data-fancybox="gallery" class="slide-item fancybox" rel="group1"><img src="img/room.png" alt=""></a>
+                    <a href="img/room.png" data-fancybox="gallery" class="slide-item fancybox" rel="group1"><img src="img/room.png" alt=""></a>
+                    <a href="img/room.png" data-fancybox="gallery" class="slide-item fancybox" rel="group1"><img src="img/room.png" alt=""></a>
+                    <a href="img/room.png" data-fancybox="gallery" class="slide-item fancybox" rel="group1"><img src="img/room.png" alt=""></a>
+                    <!--<div class="slide-item fancybox" rel="group1"><img src="img/room.png" alt=""></div>
+                    <div class="slide-item fancybox" rel="group1"><img src="img/room.png" alt=""></div>
+                    <div class="slide-item fancybox" rel="group1"><img src="img/room.png" alt=""></div>
+                    <div class="slide-item fancybox" rel="group1"><img src="img/room.png" alt=""></div>-->
                 </div>
             </div>
         </div>
@@ -178,6 +191,9 @@
         </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <!--<script src="js/jquery.fancybox.min.js"></script>-->
     <script src="js/slick.min.js"></script>
     <script src="js/gallery-script.js"></script>
     <script src="js/popup.js"></script>
