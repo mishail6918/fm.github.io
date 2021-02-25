@@ -131,8 +131,12 @@
     }
 }
 @media screen and (max-width: 375px) {
-    .header-top__pad {
-        margin-left: 25px !important;
+    header {
+        .header-top {
+            .header-top__pad {
+                margin-left: 25px;
+            }
+        }
     }
     .card .card-item .card-description .card-buttons .button-string button {
         font-size: 14px;
@@ -145,10 +149,19 @@
     }
 }
 @media screen and (max-width: 320px) {
-    .header-top {
-        .header-top__number {
-            a {
-                font-size: 12px;
+    header {
+        .header-top {
+            .header-top__number {
+                a {
+                    font-size: 12px;
+                }
+                margin-right: 25px;
+            }
+            .header-top__pad {
+                margin-left: 0;
+            }
+            .header-top__bag {
+                margin-left: 5px;
             }
         }
     }
