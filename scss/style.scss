@@ -37,16 +37,23 @@ header {
             color:$gray-color;
             cursor: pointer;
             transition: 0.3s;
+            button {
+                background: transparent;
+            }
+            input {
+                background: #1E1E1E;
+                width: 45px;
+                color: #fff;
+            }
             img {
                 height: 14px;
                 margin-left: 10px;
             }
-            &:hover {
-                /*color: #4F4F4F;*/
+            /*&:hover {
                 background: #4f4f4f;
                 padding: 5px;
                 border-radius: 5px;
-            }
+            }*/
         }
         .header-top__bag {
             img {
@@ -194,7 +201,8 @@ header {
                             margin-right: 15px;
                         }
                         &:hover {
-                            background: $gray-color;
+                            background: #000;
+                            color: #fff;
                         }
                     }
                 }
