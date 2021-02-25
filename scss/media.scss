@@ -89,6 +89,18 @@
     }
 }
 @media screen and (max-width: 425px) {
+    header {
+        .header-top {
+            .header-top__number {
+                a {
+                    font-size: 12px;
+                }
+            }
+            .header-top__pad {
+                margin-left: 35px;
+            }
+        }
+    }
     .mobile-menu-container {
         flex-direction: column;
         .menu-item {

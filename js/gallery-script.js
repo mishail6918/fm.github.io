@@ -22,8 +22,10 @@ $('.gallery-thumbs').slick({
             }
         }
     ]
-})
+});
+
 $('.room-slider').slick({
     slidesToShow:1,
-    variableWidth: true
+    variableWidth: true,
+    infinite: true
 });
