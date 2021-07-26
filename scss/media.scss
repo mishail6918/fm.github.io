@@ -1,3 +1,24 @@
+@media screen and (max-width: 2560px) {
+    .popup-in-one-click {
+        .popup-window {
+            right: 687px;
+        }
+    } 
+}
+@media screen and (max-width: 1920px) {
+    .popup-in-one-click {
+        .popup-window {
+            right: 359px;
+        }
+    } 
+}
+@media screen and (max-width: 1440px) {
+    .popup-in-one-click {
+        .popup-window {
+            right: 127px;
+        }
+    } 
+}
 @media screen and (max-width: 1350px) {
     .slick-next {
         right: 0 !important;
@@ -11,11 +32,25 @@
         max-width: 1150px;
         width: 100%;
     }
+    .popup-in-one-click {
+        .popup-window {
+            right: 127px;
+            top: 540px;
+        }
+    } 
 }
 @media screen and (max-width: 1024px) {
     .container {
         max-width: 970px;
         width: 100%;
+    }
+    .card {
+        .card-item {
+            .card-description {
+                width: 43%;
+                padding: 0px 50px;
+            }
+        }
     }
     .similar-list {
         flex-wrap: wrap;
@@ -37,6 +72,12 @@
             }
         }
     }
+    .popup-in-one-click {
+        .popup-window {
+            right: 65px;
+            top: 600px;
+        }
+    }
 }
 @media screen and (max-width: 992px) {
     .container {
@@ -48,8 +89,16 @@
     .container {
         max-width: none;
     }
-    .card-item {
-        flex-direction: column;
+    .card {
+        .card-item {
+            flex-direction: column;
+            .card-description {
+                width: 80% !important;
+                margin: 0 auto;
+                text-align: center;
+                padding: 0;
+            }
+        }
     }
     .card-gallery {
         margin-bottom: 30px;
@@ -73,6 +122,12 @@
     .similar-list {
         justify-content: space-around !important;
     }
+    .popup-in-one-click {
+        .popup-window {
+            right: 156px;
+            top: 1165px;
+        }
+    }
 }
 @media screen and (max-width: 680px) {
     .card-item {
@@ -94,6 +149,12 @@
             top: 15%;
             left: 70%;
             padding: 30px 45px;
+        }
+    }
+    .popup-in-one-click {
+        .popup-window {
+            right: 0;
+            top: 996px;
         }
     }
     header {
@@ -131,8 +192,12 @@
     }
 }
 @media screen and (max-width: 375px) {
-    .header-top__pad {
-        margin-left: 25px !important;
+    header {
+        .header-top {
+            .header-top__pad {
+                margin-left: 25px;
+            }
+        }
     }
     .card .card-item .card-description .card-buttons .button-string button {
         font-size: 14px;
@@ -143,12 +208,26 @@
             padding: 22px 35px;
         }
     }
+    .popup-in-one-click {
+        .popup-window {
+            top: 1053px;
+        }
+    }
 }
 @media screen and (max-width: 320px) {
-    .header-top {
-        .header-top__number {
-            a {
-                font-size: 12px;
+    header {
+        .header-top {
+            .header-top__number {
+                a {
+                    font-size: 12px;
+                }
+                margin-right: 25px;
+            }
+            .header-top__pad {
+                margin-left: 0;
+            }
+            .header-top__bag {
+                margin-left: 5px;
             }
         }
     }
@@ -164,6 +243,11 @@
         .popup-window {
             left: 93%;
             padding: 30px 22px;
+        }
+    }
+    .popup-in-one-click {
+        .popup-window {
+            padding: 30px 50px;
         }
     }
 }
